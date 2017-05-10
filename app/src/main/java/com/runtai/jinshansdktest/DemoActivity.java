@@ -16,6 +16,7 @@ import com.ksy.recordlib.service.core.KSYStreamerConfig;
 import com.ksy.recordlib.service.streamer.RecorderConstants;
 
 public class DemoActivity extends Activity implements OnClickListener, RadioGroup.OnCheckedChangeListener {
+    
     private static final String TAG = DemoActivity.class.getSimpleName();
     private Button connectBT;
     private EditText urlET;
@@ -73,6 +74,11 @@ public class DemoActivity extends Activity implements OnClickListener, RadioGrou
         cKtestSWInterface = (CheckBox) findViewById(R.id.testsw);
         ckManual_focus = (CheckBox) findViewById(R.id.manual_focus);
         show_debug_info = (CheckBox) findViewById(R.id.print_debug_info);
+        
+        
+        
+        
+        
 
     }
 
