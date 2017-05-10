@@ -74,12 +74,6 @@ public class DemoActivity extends Activity implements OnClickListener, RadioGrou
         cKtestSWInterface = (CheckBox) findViewById(R.id.testsw);
         ckManual_focus = (CheckBox) findViewById(R.id.manual_focus);
         show_debug_info = (CheckBox) findViewById(R.id.print_debug_info);
-        
-        
-        
-        
-        
-
     }
 
     @Override
